@@ -7,8 +7,19 @@
 # Only exists if Bazel was run
 /bazel-out
 
+# dependencies
+/node_modules
+angular.json
 
+#arquivos de Configuração do Projeto
 
+.browserslistrc
+.gitignore
+README.md
+package-lock.json
+package.json
+tsconfig.app.json
+tsconfig.json
 
 # profiling files
 chrome-profiler-events*.json
